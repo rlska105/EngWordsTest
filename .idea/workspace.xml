@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f40457-c884-49ba-a7b2-c9175ae7aa5b" name="Default Changelist" comment="" />
+    <list default="true" id="77f40457-c884-49ba-a7b2-c9175ae7aa5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/words/web/dto/WordsSaveRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/words/web/dto/WordsSaveRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.hbs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZYFx8iGhPMVsrRLrphcb9ZTa5Z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -106,29 +116,37 @@
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
     <state x="837" y="283" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1075@0.23.2048.1075" timestamp="1585015710456" />
-    <state width="2006" height="295" key="GridCell.Tab.0.bottom" timestamp="1585020435084">
+    <state width="2006" height="295" key="GridCell.Tab.0.bottom" timestamp="1585026779601">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="295" key="GridCell.Tab.0.bottom/0.23.2048.1075@0.23.2048.1075" timestamp="1585020435084" />
-    <state width="2006" height="295" key="GridCell.Tab.0.center" timestamp="1585020435083">
+    <state width="2006" height="295" key="GridCell.Tab.0.bottom/0.23.2048.1075@0.23.2048.1075" timestamp="1585026779601" />
+    <state width="2006" height="295" key="GridCell.Tab.0.center" timestamp="1585026779600">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="295" key="GridCell.Tab.0.center/0.23.2048.1075@0.23.2048.1075" timestamp="1585020435083" />
-    <state width="2006" height="295" key="GridCell.Tab.0.left" timestamp="1585020435082">
+    <state width="2006" height="295" key="GridCell.Tab.0.center/0.23.2048.1075@0.23.2048.1075" timestamp="1585026779600" />
+    <state width="2006" height="295" key="GridCell.Tab.0.left" timestamp="1585026779599">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="295" key="GridCell.Tab.0.left/0.23.2048.1075@0.23.2048.1075" timestamp="1585020435082" />
-    <state width="2006" height="295" key="GridCell.Tab.0.right" timestamp="1585020435084">
+    <state width="2006" height="295" key="GridCell.Tab.0.left/0.23.2048.1075@0.23.2048.1075" timestamp="1585026779599" />
+    <state width="2006" height="295" key="GridCell.Tab.0.right" timestamp="1585026779601">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="295" key="GridCell.Tab.0.right/0.23.2048.1075@0.23.2048.1075" timestamp="1585020435084" />
-    <state x="701" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1585018165139">
+    <state width="2006" height="295" key="GridCell.Tab.0.right/0.23.2048.1075@0.23.2048.1075" timestamp="1585026779601" />
+    <state x="754" y="299" width="540" height="524" key="StructurePopup" timestamp="1585026778383">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state x="701" y="392" key="com.intellij.ide.util.TipDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1585018165139" />
+    <state x="754" y="299" width="540" height="524" key="StructurePopup/0.23.2048.1075@0.23.2048.1075" timestamp="1585026778383" />
+    <state x="701" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1585023636067">
+      <screen x="0" y="23" width="2048" height="1075" />
+    </state>
+    <state x="701" y="392" key="com.intellij.ide.util.TipDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1585023636067" />
     <state x="781" y="294" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585013482818">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
     <state x="781" y="294" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1585013482818" />
+    <state x="689" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1585024433925">
+      <screen x="0" y="23" width="2048" height="1075" />
+    </state>
+    <state x="689" y="262" width="670" height="676" key="search.everywhere.popup/0.23.2048.1075@0.23.2048.1075" timestamp="1585024433925" />
   </component>
 </project>

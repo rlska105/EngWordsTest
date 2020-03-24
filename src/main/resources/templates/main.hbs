@@ -2,8 +2,8 @@
 <html>
 <head>
     <title>스프링부트 웹서비스</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <!--부트스트랩 css 추가-->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -12,12 +12,12 @@
 </head>
 <body>
 <h1>Eng words sheet</h1>
-
 <div class="col-md-12">
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#savePostsModal">글 등록</button>
 </div>
 
-<div class="modal fade" id="savePostsModal" tabindex="-1" role="dialog" aria-labelledby="savePostsLabel" aria-hidden="true">
+<div class="modal fade" id="savePostsModal" tabindex="-1" role="dialog" aria-labelledby="savePostsLabel"
+     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -29,11 +29,11 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="words">제목</label>
-                        <input type="text" class="form-control" id="words" placeholder="제목을 입력하세요">
+                        <label for="word">Word</label>
+                        <input type="text" class="form-control" id="word" placeholder="제목을 입력하세요">
                     </div>
                     <div class="form-group">
-                        <label for="meaning"> 내용 </label>
+                        <label for="meaning"> Meaning </label>
                         <textarea class="form-control" id="meaning" placeholder="내용을 입력하세요"></textarea>
                     </div>
                 </form>
@@ -45,6 +45,7 @@
         </div>
     </div>
 </div>
+
 
 <!--부트스트랩 js, jquery 추가-->
 

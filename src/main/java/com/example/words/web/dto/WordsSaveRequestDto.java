@@ -13,6 +13,7 @@ import lombok.Setter;
 public class WordsSaveRequestDto {
 
     private String word;
+    private String word2;
     private String meaning;
 
     @Builder

@@ -7,7 +7,7 @@ var main = {
     },
     save : function () {
         var data = {
-            words: $('#words').val(),
+            word: $('#word').val(),
             meaning: $('#meaning').val()
         };
 
