@@ -2,3 +2,7 @@ spring:
   h2:
     console:
       enabled: true
+
+
+
+spring.main.allow-bean-definition-overriding: true

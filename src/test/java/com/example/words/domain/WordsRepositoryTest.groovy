@@ -1,5 +1,7 @@
 package com.example.words.domain
 
+import com.example.words.domain.words.Words
+import com.example.words.domain.words.WordsRepository
 import org.junit.After
 import org.junit.Test
 import org.junit.runner.RunWith

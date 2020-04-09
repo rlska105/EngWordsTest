@@ -1,11 +1,13 @@
-package com.example.words.domain;
+package com.example.words.domain.words;
 
 
+import com.example.words.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -19,7 +21,10 @@ public class Words extends BaseTimeEntity {
     @GeneratedValue
     private Long id;
 
+    @Column(length = 500, nullable = true)
     private String word;
+
+    @Column(columnDefinition = "TEXT", nullable = true)
     private String meaning;
 
     @Builder

@@ -1,7 +1,7 @@
 package com.example.words.web.dto;
 
 
-import com.example.words.domain.Words;
+import com.example.words.domain.words.Words;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +13,6 @@ import lombok.Setter;
 public class WordsSaveRequestDto {
 
     private String word;
-    private String word2;
     private String meaning;
 
     @Builder
