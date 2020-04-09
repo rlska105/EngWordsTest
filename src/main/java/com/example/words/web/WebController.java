@@ -17,4 +17,9 @@ public class WebController {
         model.addAttribute("words", wordsService.findAllDesc());
         return "main";
     }
+
+    @GetMapping("/words/save")
+    public String wordsSave(){
+        return "words-save";
+    }
 }

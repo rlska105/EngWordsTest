@@ -36,7 +36,6 @@ dependencies {
     compile('com.h2database:h2')
     annotationProcessor('org.projectlombok:lombok') //lombok version error 방지
     testAnnotationProcessor('org.projectlombok:lombok') //lombok version error 방지
-    compile 'pl.allegro.tech.boot:handlebars-spring-boot-starter:0.3.0'
     compile('org.springframework.session:spring-session-jdbc')
 
     compile("org.mariadb.jdbc:mariadb-java-client")

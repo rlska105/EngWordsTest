@@ -34,7 +34,6 @@ public class WordsService {
     public WordsResponseDto findById(Long id) {
         Words entity = wordsRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("해당 사용자가 없습니다. id=" + id));
-
         return new WordsResponseDto(entity);
     }
 }

@@ -20,8 +20,9 @@ public class WebApiController {
         return wordsService.save(dto);
     }
 
+
     @GetMapping("/api/v1/words/{id}")
-    public WordsResponseDto findById(@PathVariable Long id){
+    public WordsResponseDto findById(@PathVariable Long id) {
         return wordsService.findById(id);
     }
 
