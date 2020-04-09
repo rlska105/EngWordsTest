@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f40457-c884-49ba-a7b2-c9175ae7aa5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/words/web/dto/WordsListResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/words/web/dto/WordsUpdateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/words-update.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
@@ -13,16 +12,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/words/domain/words/Words.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/words/domain/words/Words.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/words/domain/words/WordsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/words/domain/words/WordsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/words/service/words/WordsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/words/service/words/WordsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/words/web/WebApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/words/web/WebApiController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/words/web/WebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/words/web/WebController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/js/app/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/words/domain/words/Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/words/domain/words/Words.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/words/domain/words/WordsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/words/domain/words/WordsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/words/service/words/WordsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/words/service/words/WordsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/words/web/WebApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/words/web/WebApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/words/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/words/web/WebController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" afterDir="false" />
@@ -206,22 +197,22 @@
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
     <state x="762" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1585091397144" />
-    <state width="2006" height="295" key="GridCell.Tab.0.bottom" timestamp="1586405403379">
+    <state width="2006" height="295" key="GridCell.Tab.0.bottom" timestamp="1586407544289">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="295" key="GridCell.Tab.0.bottom/0.23.2048.1075@0.23.2048.1075" timestamp="1586405403379" />
-    <state width="2006" height="295" key="GridCell.Tab.0.center" timestamp="1586405403377">
+    <state width="2006" height="295" key="GridCell.Tab.0.bottom/0.23.2048.1075@0.23.2048.1075" timestamp="1586407544289" />
+    <state width="2006" height="295" key="GridCell.Tab.0.center" timestamp="1586407544287">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="295" key="GridCell.Tab.0.center/0.23.2048.1075@0.23.2048.1075" timestamp="1586405403377" />
-    <state width="2006" height="295" key="GridCell.Tab.0.left" timestamp="1586405403377">
+    <state width="2006" height="295" key="GridCell.Tab.0.center/0.23.2048.1075@0.23.2048.1075" timestamp="1586407544287" />
+    <state width="2006" height="295" key="GridCell.Tab.0.left" timestamp="1586407544287">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="295" key="GridCell.Tab.0.left/0.23.2048.1075@0.23.2048.1075" timestamp="1586405403377" />
-    <state width="2006" height="295" key="GridCell.Tab.0.right" timestamp="1586405403378">
+    <state width="2006" height="295" key="GridCell.Tab.0.left/0.23.2048.1075@0.23.2048.1075" timestamp="1586407544287" />
+    <state width="2006" height="295" key="GridCell.Tab.0.right" timestamp="1586407544288">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="295" key="GridCell.Tab.0.right/0.23.2048.1075@0.23.2048.1075" timestamp="1586405403378" />
+    <state width="2006" height="295" key="GridCell.Tab.0.right/0.23.2048.1075@0.23.2048.1075" timestamp="1586407544288" />
     <state x="525" y="199" key="SettingsEditor" timestamp="1585089759924">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
@@ -230,10 +221,10 @@
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
     <state x="754" y="299" width="540" height="524" key="StructurePopup/0.23.2048.1075@0.23.2048.1075" timestamp="1585026778383" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1586405385505">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1586407510094">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.2048.1075@0.23.2048.1075" timestamp="1586405385505" />
+    <state width="500" height="445" key="SwitcherDM/0.23.2048.1075@0.23.2048.1075" timestamp="1586407510094" />
     <state x="701" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1585087151036">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
