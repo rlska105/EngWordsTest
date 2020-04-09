@@ -33,4 +33,8 @@ public class Words extends BaseTimeEntity {
         this.meaning = meaning;
     }
 
+    public void update(String word, String meaning){
+        this.word = word;
+        this.meaning = meaning;
+    }
 }

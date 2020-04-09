@@ -7,7 +7,28 @@
                 <a href="/words/save" role="button" class="btn btn-primary">글 등록</a>
             </div>
         </div>
+        <br>
+        <!-- 목록 출력 영역 -->
+        <table class="table table-horizontal table-bordered">
+            <thead class="thead-strong">
+            <tr>
+                <th>No</th>
+                <th>word</th>
+                <th>meaning</th>
+                <th>LastModifiedDate</th>
+            </tr>
+            </thead>
+            <tbody id="tbody">
+            {{#words}}
+                <tr>
+                    <td>{{id}}</td>
+                    <td><a href="/words/update/{{id}}">{{word}}</a></td>
+                    <td>{{meaning}}</td>
+                    <td>{{modifiedDate}}</td>
+                </tr>
+            {{/words}}
+            </tbody>
+        </table>
     </div>
-
 
 {{>layout/footer}}
