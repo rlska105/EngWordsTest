@@ -33,6 +33,12 @@ public class WordsService {
         return id;
     }
 
+    public WordsResponseDto findById(Long id) {
+        Words entity = wordsRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("해당 사용자가 없습니다. id=" + id));
+        return new WordsResponseDto(entity);
+    }
+
     @Transactional(readOnly = true)
     public List<WordsListResponseDto> findAllAsc() {
         return wordsRepository.findAllAsc().stream()
@@ -40,11 +46,6 @@ public class WordsService {
                 .collect(Collectors.toList());
     }
 
-    @Transactional(readOnly = true) //GetMapping 조회
-    public WordsResponseDto findById(Long id) {
-        Words entity = wordsRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException("해당 사용자가 없습니다. id=" + id));
-        return new WordsResponseDto(entity);
-    }
+
 }
 
