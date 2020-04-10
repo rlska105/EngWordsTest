@@ -16,7 +16,7 @@ public class WebController {
 
     @GetMapping("/")
     public String main(Model model) {
-        model.addAttribute("words", wordsService.findAllDesc());
+        model.addAttribute("words", wordsService.findAllAsc());
         return "main";
     }
 
@@ -26,7 +26,7 @@ public class WebController {
     }
 
     @GetMapping("/words/update/{id}")
-    public String wordsUpdate(@PathVariable Long id, Model model){
+    public String wordsUpdate(@PathVariable Long id, Model model) {
         WordsResponseDto dto = wordsService.findById(id);
         model.addAttribute("post", dto);
         return "words-update";

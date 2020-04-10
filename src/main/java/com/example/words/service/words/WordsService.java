@@ -34,8 +34,8 @@ public class WordsService {
     }
 
     @Transactional(readOnly = true)
-    public List<WordsListResponseDto> findAllDesc() {
-        return wordsRepository.findAllDesc().stream()
+    public List<WordsListResponseDto> findAllAsc() {
+        return wordsRepository.findAllAsc().stream()
                 .map(WordsListResponseDto::new)
                 .collect(Collectors.toList());
     }

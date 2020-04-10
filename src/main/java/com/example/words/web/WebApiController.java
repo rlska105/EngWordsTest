@@ -5,7 +5,6 @@ import com.example.words.service.words.WordsService;
 import com.example.words.web.dto.WordsResponseDto;
 import com.example.words.web.dto.WordsSaveRequestDto;
 import com.example.words.web.dto.WordsUpdateRequestDto;
-import lombok.AllArgsConstructor;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -22,12 +21,12 @@ public class WebApiController {
         return wordsService.save(dto);
     }
 
-    @PutMapping("/api/v1/words/{id}")
+    @PutMapping("/words/{id}")
     public Long update(@PathVariable Long id, @RequestBody WordsUpdateRequestDto requestDto) {
         return wordsService.update(id, requestDto);
     }
 
-    @GetMapping("/api/v1/words/{id}")
+    @GetMapping("/words/{id}")
     public WordsResponseDto findById(@PathVariable Long id) {
         return wordsService.findById(id);
     }
